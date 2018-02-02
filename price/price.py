@@ -11,7 +11,7 @@ except:
     reqs_avail = False
 
 
-class CryptoPrice:
+class Price:
 
     """Fetches cryptocurrency information"""
 
