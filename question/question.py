@@ -84,7 +84,7 @@ class Tickets:
             reply = ctx.message.channel
         await self.bot.send_message(reply, self._get_ticket())
 
-    @commands.command(aliases=["question"] pass_context=True)
+    @commands.command(aliases=["question"], pass_context=True)
     async def ticket(self, ctx, *, message):
         """Adds ticket.
 
