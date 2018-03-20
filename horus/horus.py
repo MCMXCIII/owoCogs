@@ -5,6 +5,7 @@ import discord
 import asyncio
 from .utils.dataIO import dataIO
 from .utils import checks
+import tweepy as tw
 try:
     import tweepy as tw
     twInstalled = True
